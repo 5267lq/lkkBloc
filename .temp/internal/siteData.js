@@ -52,13 +52,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/test/",
-      "relativePath": "test/README.md",
-      "key": "v-5c0d5a70",
-      "path": "/test/"
-    },
-    {
       "title": "关于我",
       "frontmatter": {},
       "regularPath": "/about.html",
@@ -168,41 +161,6 @@ export const siteData = {
     {
       "title": "一级标题",
       "frontmatter": {},
-      "regularPath": "/test/test1.html",
-      "relativePath": "test/test1.md",
-      "key": "v-5aa9402b",
-      "path": "/test/test1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题"
-        },
-        {
-          "level": 3,
-          "title": "二级标题",
-          "slug": "二级标题"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-2"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-3"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-4"
-        }
-      ]
-    },
-    {
-      "title": "一级标题",
-      "frontmatter": {},
       "regularPath": "/about/one.html",
       "relativePath": "about/one.md",
       "key": "v-273b0249",
@@ -252,6 +210,48 @@ export const siteData = {
           "level": 2,
           "title": "一级标题",
           "slug": "一级标题-6"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/test/",
+      "relativePath": "test/README.md",
+      "key": "v-5c0d5a70",
+      "path": "/test/"
+    },
+    {
+      "title": "一级标题",
+      "frontmatter": {},
+      "regularPath": "/test/test1.html",
+      "relativePath": "test/test1.md",
+      "key": "v-5aa9402b",
+      "path": "/test/test1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题"
+        },
+        {
+          "level": 3,
+          "title": "二级标题",
+          "slug": "二级标题"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-2"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-3"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-4"
         }
       ]
     },
