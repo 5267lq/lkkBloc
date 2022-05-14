@@ -1,13 +1,26 @@
+const moment = require('moment');
+moment.locale("zh-cn")
 module.exports = {
+    base:"/lkkBloc/",
     title: 'lkk',
     description: 'Just playing around',
     head: [
         ['meta', { name: 'author', content: 'vuepress介绍 lkk' }],
         ['meta', { name: 'keywords', content: 'vuepress介绍 lkk' }]
     ],
-    lastUpdated: '更新时间',
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp) => {
+                    return moment(timestamp).format("LLLL")
+                }
+            }
+        ]
+    ],
     themeConfig: {
         logo: '/assets/img/tim.jpg',
+        lastUpdated: '更新时间',
         // navbar: false,
         sidebar: 'auto',
         sidebarDepth: 3,
@@ -43,10 +56,10 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
-                  '/test/test1',
-                  '/test/test2'
+                    '/test/test1',
+                    '/test/test2'
                 ]
-              },
+            },
         ]
         // sidebar: {
         //     '/about/': [

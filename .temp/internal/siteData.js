@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "lkk",
   "description": "Just playing around",
-  "base": "/",
+  "base": "/lkkBloc/",
   "headTags": [
     [
       "meta",
@@ -49,7 +49,9 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-5d457836",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
     },
     {
       "title": "关于我",
@@ -64,99 +66,9 @@ export const siteData = {
           "title": "关于我",
           "slug": "关于我"
         }
-      ]
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {
-        "navbar": false
-      },
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-c6f285d4",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题"
-        },
-        {
-          "level": 3,
-          "title": "二级标题",
-          "slug": "二级标题"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-2"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-3"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-4"
-        }
-      ]
-    },
-    {
-      "title": "一级标题",
-      "frontmatter": {},
-      "regularPath": "/about/two.html",
-      "relativePath": "about/two.md",
-      "key": "v-efc2d6ee",
-      "path": "/about/two.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题"
-        },
-        {
-          "level": 3,
-          "title": "二级标题",
-          "slug": "二级标题"
-        },
-        {
-          "level": 3,
-          "title": "三级标题",
-          "slug": "三级标题"
-        },
-        {
-          "level": 3,
-          "title": "二级标题",
-          "slug": "二级标题-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题",
-          "slug": "三级标题-2"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-2"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-3"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-4"
-        }
-      ]
+      ],
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
     },
     {
       "title": "一级标题",
@@ -211,14 +123,53 @@ export const siteData = {
           "title": "一级标题",
           "slug": "一级标题-6"
         }
-      ]
+      ],
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
     },
     {
-      "frontmatter": {},
-      "regularPath": "/test/",
-      "relativePath": "test/README.md",
-      "key": "v-5c0d5a70",
-      "path": "/test/"
+      "title": "关于我",
+      "frontmatter": {
+        "navbar": false
+      },
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-c6f285d4",
+      "path": "/about/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题"
+        },
+        {
+          "level": 3,
+          "title": "二级标题",
+          "slug": "二级标题"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-2"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-3"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-4"
+        }
+      ],
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
     },
     {
       "title": "一级标题",
@@ -253,7 +204,70 @@ export const siteData = {
           "title": "一级标题",
           "slug": "一级标题-4"
         }
-      ]
+      ],
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
+    },
+    {
+      "title": "一级标题",
+      "frontmatter": {},
+      "regularPath": "/about/two.html",
+      "relativePath": "about/two.md",
+      "key": "v-efc2d6ee",
+      "path": "/about/two.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题"
+        },
+        {
+          "level": 3,
+          "title": "二级标题",
+          "slug": "二级标题"
+        },
+        {
+          "level": 3,
+          "title": "三级标题",
+          "slug": "三级标题"
+        },
+        {
+          "level": 3,
+          "title": "二级标题",
+          "slug": "二级标题-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题",
+          "slug": "三级标题-2"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-2"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-3"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-4"
+        }
+      ],
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/test/",
+      "relativePath": "test/README.md",
+      "key": "v-5c0d5a70",
+      "path": "/test/",
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
     },
     {
       "title": "一级标题",
@@ -288,11 +302,14 @@ export const siteData = {
           "title": "一级标题",
           "slug": "一级标题-4"
         }
-      ]
+      ],
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
     }
   ],
   "themeConfig": {
     "logo": "/assets/img/tim.jpg",
+    "lastUpdated": "更新时间",
     "sidebar": [
       "/",
       "/about",
