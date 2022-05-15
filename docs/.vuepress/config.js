@@ -1,7 +1,7 @@
 const moment = require('moment');
 moment.locale("zh-cn")
 module.exports = {
-    base:"/lkkBloc/",
+    // base:"/lkkBloc/",
     title: 'lkk',
     description: 'Just playing around',
     head: [
@@ -10,13 +10,19 @@ module.exports = {
     ],
     plugins: [
         [
-            '@vuepress/last-updated',
-            {
+            '@vuepress/last-updated', {
                 transformer: (timestamp) => {
                     return moment(timestamp).format("LLLL")
                 }
             }
-        ]
+        ],
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: {
+                message: "新内容可用",
+                buttonText: "刷新"
+            }
+        }]
     ],
     themeConfig: {
         logo: '/assets/img/tim.jpg',

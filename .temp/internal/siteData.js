@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "lkk",
   "description": "Just playing around",
-  "base": "/lkkBloc/",
+  "base": "/",
   "headTags": [
     [
       "meta",
@@ -22,6 +22,15 @@ export const siteData = {
     ]
   ],
   "pages": [
+    {
+      "frontmatter": {},
+      "regularPath": "/test/",
+      "relativePath": "test/README.md",
+      "key": "v-5c0d5a70",
+      "path": "/test/",
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
+    },
     {
       "title": "Home",
       "frontmatter": {
@@ -50,80 +59,6 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-5d457836",
       "path": "/",
-      "lastUpdated": "2022年5月13日星期五晚上10点20分",
-      "lastUpdatedTimestamp": 1652451650000
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/about.html",
-      "relativePath": "about.md",
-      "key": "v-ca873794",
-      "path": "/about.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        }
-      ],
-      "lastUpdated": "2022年5月13日星期五晚上10点20分",
-      "lastUpdatedTimestamp": 1652451650000
-    },
-    {
-      "title": "一级标题",
-      "frontmatter": {},
-      "regularPath": "/about/one.html",
-      "relativePath": "about/one.md",
-      "key": "v-273b0249",
-      "path": "/about/one.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题"
-        },
-        {
-          "level": 3,
-          "title": "二级标题",
-          "slug": "二级标题"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-2"
-        },
-        {
-          "level": 3,
-          "title": "二级标题",
-          "slug": "二级标题-2"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-3"
-        },
-        {
-          "level": 3,
-          "title": "二级标题",
-          "slug": "二级标题-3"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-4"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-5"
-        },
-        {
-          "level": 2,
-          "title": "一级标题",
-          "slug": "一级标题-6"
-        }
-      ],
       "lastUpdated": "2022年5月13日星期五晚上10点20分",
       "lastUpdatedTimestamp": 1652451650000
     },
@@ -261,11 +196,76 @@ export const siteData = {
       "lastUpdatedTimestamp": 1652451650000
     },
     {
+      "title": "关于我",
       "frontmatter": {},
-      "regularPath": "/test/",
-      "relativePath": "test/README.md",
-      "key": "v-5c0d5a70",
-      "path": "/test/",
+      "regularPath": "/about.html",
+      "relativePath": "about.md",
+      "key": "v-ca873794",
+      "path": "/about.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        }
+      ],
+      "lastUpdated": "2022年5月13日星期五晚上10点20分",
+      "lastUpdatedTimestamp": 1652451650000
+    },
+    {
+      "title": "一级标题",
+      "frontmatter": {},
+      "regularPath": "/about/one.html",
+      "relativePath": "about/one.md",
+      "key": "v-273b0249",
+      "path": "/about/one.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题"
+        },
+        {
+          "level": 3,
+          "title": "二级标题",
+          "slug": "二级标题"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-2"
+        },
+        {
+          "level": 3,
+          "title": "二级标题",
+          "slug": "二级标题-2"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-3"
+        },
+        {
+          "level": 3,
+          "title": "二级标题",
+          "slug": "二级标题-3"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-4"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-5"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-6"
+        }
+      ],
       "lastUpdated": "2022年5月13日星期五晚上10点20分",
       "lastUpdatedTimestamp": 1652451650000
     },

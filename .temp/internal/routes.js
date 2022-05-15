@@ -9,6 +9,18 @@ import GlobalLayout from "C:\\Users\\boxin\\AppData\\Roaming\\npm\\node_modules\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-5c0d5a70",
+    path: "/test/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5c0d5a70").then(next)
+    },
+  },
+  {
+    path: "/test/index.html",
+    redirect: "/test/"
+  },
+  {
     name: "v-5d457836",
     path: "/",
     component: GlobalLayout,
@@ -19,22 +31,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-ca873794",
-    path: "/about.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ca873794").then(next)
-    },
-  },
-  {
-    name: "v-273b0249",
-    path: "/about/one.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-273b0249").then(next)
-    },
   },
   {
     name: "v-c6f285d4",
@@ -65,16 +61,20 @@ export const routes = [
     },
   },
   {
-    name: "v-5c0d5a70",
-    path: "/test/",
+    name: "v-ca873794",
+    path: "/about.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5c0d5a70").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-ca873794").then(next)
     },
   },
   {
-    path: "/test/index.html",
-    redirect: "/test/"
+    name: "v-273b0249",
+    path: "/about/one.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-273b0249").then(next)
+    },
   },
   {
     name: "v-43ffef29",
