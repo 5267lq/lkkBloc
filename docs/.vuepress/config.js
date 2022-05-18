@@ -22,9 +22,13 @@ module.exports = {
             repo: 'lkkBloc',
             clientId: 'd3fb2b278d041f156ab0',
             clientSecret: '4d3a43936e32f41e9a006106d4fe1d5f1d35ff07',
-            autoCreateIssue:true,
+            autoCreateIssue: true,
             locale: 'zh',
         },
+        '@vuepress/back-to-top': true,
+        '@vuepress/google-analytics': {
+            'ga': 'G-0683GMDTF6'
+        }
     },
     themeConfig: {
         logo: '/assets/img/tim.jpg',
@@ -36,7 +40,7 @@ module.exports = {
             // 单个地址
             { text: '首页', link: '/' },
             { text: '导航', link: '/about.html' },
-            { text: '谷歌', link: 'https://google.com' },
+            { text: '经济', link: '/test/' },
             // 多个地址
             {
                 text: '博客地址',
@@ -64,6 +68,7 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
+                    '/test/test',
                     '/test/test1',
                     '/test/test2'
                 ]
