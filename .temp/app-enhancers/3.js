@@ -1,0 +1,1 @@
+export { default } from "D:\\lkkBloc\\lkkBloc\\node_modules\\@vuepress\\plugin-back-to-top\\enhanceAppFile.js"

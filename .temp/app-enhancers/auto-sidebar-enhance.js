@@ -1,0 +1,1 @@
+export default ({ siteData, options }) => { siteData.themeConfig.sidebar = {"/about/":[{"title":"About","collapsable":false,"sidebarDepth":1,"children":["","one","two"]}],"/test/":[{"title":"Test","collapsable":false,"sidebarDepth":1,"children":["","test","test1","test2"]}]} }
